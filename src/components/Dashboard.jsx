@@ -23,11 +23,12 @@ const OFFLINE_THRESHOLD = 15000;
 const DEMO_BILLING_SCALE = 1000;
 
 // ─── Notification config ──────────────────────────────────────────────────────
-const EMAILJS_SERVICE_ID  = 'service_kgyu6r7';
-const EMAILJS_TEMPLATE_ID = 'template_ls7oeos';
-const EMAILJS_PUBLIC_KEY  = 'tG9bgGF3pAwoyxZqG';
-const TELEGRAM_BOT_TOKEN  = '8632294900:AAGW846i8ZMDSJ6dvLYQCpS4uZeHVvwcvD4';
-const TELEGRAM_CHAT_ID    = '1754425825';
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+const TELEGRAM_BOT_TOKEN = import.meta.env.VITE_TELEGRAM_BOT_TOKEN;
+const TELEGRAM_CHAT_ID = import.meta.env.VITE_TELEGRAM_CHAT_ID;
 
 const sendEmail = async (params) => {
   if (!params.to_email) {
