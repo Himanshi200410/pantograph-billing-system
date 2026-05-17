@@ -19,55 +19,114 @@
 
 # 🖥️ Dashboard Preview
 
-![Dashboard](screenshots/dashboard-ui.jpeg)
+<p align="center">
+  <img src="screenshots/dashboard-ui.jpeg" width="1000"/>
+</p>
 
 ---
 
 # 📲 Notification System
 
-| Telegram Alert | Email Invoice |
-|---|---|
-| ![](screenshots/telegram-alert.jpeg) | ![](screenshots/email-billing.png) |
+<table>
+<tr>
+<td align="center"><b>Telegram Alert</b></td>
+<td align="center"><b>Email Invoice</b></td>
+</tr>
+
+<tr>
+<td>
+<img src="screenshots/telegram-alert.jpeg" width="320"/>
+</td>
+
+<td>
+<img src="screenshots/email-billing.png" width="320"/>
+</td>
+</tr>
+</table>
 
 ---
 
 # 💳 Billing & Payments
 
-| Receipt | UPI Payment | Recharge Options |
-|---|---|---|
-| ![](screenshots/billing-receipt.png) | ![](screenshots/upi-payment.png) | ![](screenshots/recharge-options.png) |
+<table>
+<tr>
+<td align="center"><b>Billing Receipt</b></td>
+<td align="center"><b>UPI Payment</b></td>
+<td align="center"><b>Recharge Options</b></td>
+</tr>
+
+<tr>
+<td>
+<img src="screenshots/billing-receipt.png" width="320"/>
+</td>
+
+<td>
+<img src="screenshots/upi-payment.png" width="320"/>
+</td>
+
+<td>
+<img src="screenshots/recharge-options.png" width="320"/>
+</td>
+</tr>
+</table>
 
 ---
 
 # ☁️ Firebase Integration
 
-| Realtime Database | Authentication |
-|---|---|
-| ![](screenshots/firebase-realtime.png) | ![](screenshots/firebase-auth.png) |
+<table>
+<tr>
+<td align="center"><b>Realtime Database</b></td>
+<td align="center"><b>Authentication</b></td>
+</tr>
+
+<tr>
+<td>
+<img src="screenshots/firebase-realtime.png" width="450"/>
+</td>
+
+<td>
+<img src="screenshots/firebase-auth.png" width="450"/>
+</td>
+</tr>
+</table>
 
 ---
 
 # 🚛 Hardware Prototype
 
-| Highway Prototype | Truck Model |
-|---|---|
-| ![](screenshots/highway-prototype.jpeg) | ![](screenshots/hardware-model.jpeg) |
+<table>
+<tr>
+<td align="center"><b>Highway Prototype</b></td>
+<td align="center"><b>Truck Model</b></td>
+</tr>
+
+<tr>
+<td>
+<img src="screenshots/highway-prototype.jpeg" width="450"/>
+</td>
+
+<td>
+<img src="screenshots/hardware-model.jpeg" width="450"/>
+</td>
+</tr>
+</table>
 
 ---
 
 # 🛠️ Tech Stack
 
-### Frontend
+## Frontend
 - React.js
 - JavaScript
 - CSS
 
-### Cloud & Backend
+## Cloud & Backend
 - Firebase Realtime Database
 - Firebase Authentication
 - EmailJS
 
-### IoT & Hardware
+## IoT & Hardware
 - ESP32
 - RFID Module
 - INA219 Sensor
@@ -100,5 +159,5 @@
 ✅ Real-time monitoring  
 ✅ Automated billing  
 ✅ IoT + Cloud integration  
-✅ Smart EV infrastructure  
 ✅ Hardware + Software implementation  
+✅ Smart EV infrastructure prototype  
