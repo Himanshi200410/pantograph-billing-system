@@ -1,16 +1,104 @@
-# React + Vite
+# ⚡ Pantograph Billing System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> IoT-enabled smart electric highway billing and monitoring system for pantograph-based electric trucks.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔋 Real-time energy monitoring
+- ☁️ Firebase Realtime Database integration
+- 🪪 RFID-based vehicle authentication
+- 💳 Automated billing system
+- 📩 Telegram & Email notifications
+- 💰 Wallet recharge and payment system
+- 📊 Smart dashboard analytics
+- ⚡ Pantograph-based charging prototype
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# 🖥️ Dashboard Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Dashboard](screenshots/dashboard-ui.jpeg)
+
+---
+
+# 📲 Notification System
+
+| Telegram Alert | Email Invoice |
+|---|---|
+| ![](screenshots/telegram-alert.jpeg) | ![](screenshots/email-billing.png) |
+
+---
+
+# 💳 Billing & Payments
+
+| Receipt | UPI Payment | Recharge Options |
+|---|---|---|
+| ![](screenshots/billing-receipt.png) | ![](screenshots/upi-payment.png) | ![](screenshots/recharge-options.png) |
+
+---
+
+# ☁️ Firebase Integration
+
+| Realtime Database | Authentication |
+|---|---|
+| ![](screenshots/firebase-realtime.png) | ![](screenshots/firebase-auth.png) |
+
+---
+
+# 🚛 Hardware Prototype
+
+| Highway Prototype | Truck Model |
+|---|---|
+| ![](screenshots/highway-prototype.jpeg) | ![](screenshots/hardware-model.jpeg) |
+
+---
+
+# 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- JavaScript
+- CSS
+
+### Cloud & Backend
+- Firebase Realtime Database
+- Firebase Authentication
+- EmailJS
+
+### IoT & Hardware
+- ESP32
+- RFID Module
+- INA219 Sensor
+- Pantograph Charging Mechanism
+
+---
+
+# 👩‍💻 My Contribution
+
+- Developed React dashboard UI
+- Integrated Firebase realtime database
+- Built automated billing workflow
+- Implemented Telegram & Email notifications
+- Worked on IoT-cloud communication
+- Developed recharge and payment interfaces
+
+---
+
+# 🔮 Future Scope
+
+- AI-based energy optimization
+- Smart EV highway infrastructure
+- Renewable energy integration
+- Large-scale electric highway deployment
+
+---
+
+# ⭐ Project Highlights
+
+✅ Real-time monitoring  
+✅ Automated billing  
+✅ IoT + Cloud integration  
+✅ Smart EV infrastructure  
+✅ Hardware + Software implementation  
